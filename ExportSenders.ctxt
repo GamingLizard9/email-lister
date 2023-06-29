@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ExportSenders
+comment0.text=\r\n\ This\ program\ creates\ a\ list\ of\ all\ people\ you\ have\ recieved\r\n\ an\ email\ from,\ given\ an\ inbox\ in\ the\ .mbox\ format.\r\n\ Any\ domain\ that\ contains\ a\ term\ from\ excluded.txt\ will\ not\ be\r\n\ in\ the\ final\ result.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=name\ excluded
+comment2.target=java.lang.String\ formatName(java.lang.String,\ java.util.ArrayList)
+numComments=3
