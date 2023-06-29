@@ -87,7 +87,7 @@ public class ExportSenders {
       if(name.indexOf("@") == -1 || name.indexOf(">") == -1) return "next";
       // reduce string to just domain in email address
       String shortName = name.substring(name.indexOf("@") + 1, name.indexOf(">"));
-      // trim to just first level of domain (hello.test.com --> test.com)
+      // trim to just first level of domain with regex (hello.test.com --> test.com)
       while(shortName.matches(".+\\..+\\..+")) {
           shortName = shortName.substring(shortName.indexOf(".") + 1);
       }
