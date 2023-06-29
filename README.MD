@@ -9,6 +9,8 @@ First, get a copy of your email inbox in .mbox format. For gmail, this can be do
 
 Once you have downloaded the file, rename it to "mail.mbox" without quotes and place it in the same folder as the .jar file.
 
+**Currently the code only behaves properly if you download the source and run the main method from BlueJ.**
+
 ### Excluding certain terms
 Then, make any edits needed to exclude.txt. If any email address contains any of the keywords placed in this file, they will not appear in the final result.
 
